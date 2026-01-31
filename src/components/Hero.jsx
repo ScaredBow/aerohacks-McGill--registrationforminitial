@@ -101,7 +101,7 @@ export default function Hero({ onRegisterClick }) {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <div className="px-4 md:px-5 py-2 md:py-2.5 bg-gradient-to-r from-red-600/30 to-cyan-500/30 backdrop-blur-xl border-2 border-red-500/70 rounded text-white text-xs md:text-sm font-mono font-bold shadow-lg shadow-red-500/30 animate-pulse">
+              <div className="px-4 md:px-5 py-2 md:py-2.5 bg-gradient-to-r from-red-600/30 to-cyan-500/30 backdrop-blur-xl border-2 border-red-500/70 rounded text-white text-xs md:text-sm font-mono font-bold shadow-lg shadow-red-500/30">
                 🚀 FIRST-EVER EDITION
               </div>
             </motion.div>
@@ -159,9 +159,9 @@ export default function Hero({ onRegisterClick }) {
                 onClick={onRegisterClick}
                 size="lg"
                 className="bg-red-600 hover:bg-red-700 text-white px-6 md:px-8 py-4 md:py-6 text-sm md:text-lg rounded font-bold w-full sm:w-auto border-2 border-red-500 shadow-lg shadow-red-500/50 transition-all duration-300 hover:shadow-red-500/70"
-                aria-label="Pre-register for McGill AeroHacks"
+                aria-label="Register for McGill AeroHacks"
               >
-                PRE-REGISTER NOW
+                REGISTER NOW
               </Button>
               <Button
                 size="lg"
